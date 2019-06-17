@@ -1,0 +1,3 @@
+publicScrimsID = "556222699614240778"
+loughScrimsID = "512004628942946306"        
+adminID = "556236900156047391"

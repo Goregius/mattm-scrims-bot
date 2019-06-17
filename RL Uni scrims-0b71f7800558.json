@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rl-uni-scrims",
+  "private_key_id": "0b71f7800558a55e61b6f9c986f20afd21fe9ed4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDVE8Hik9jdvJZG\nhYTnNtiid1EUaCqLmzheJrXSPIIzUEB2iIbJA7oB+HwMN6u7kVSu4U39d3OL2mXT\npiWSe80w7KR4XMKiZraZL5EhhHI2fA+CqQeyVyQpfkEur5TfQSHmvYZu01w/Leri\n76sYhizbFmJtn5qC7N2DekElIZTRNgIRr5un8wYRr9+cR+QVFtrh6hpc+xhYhmqi\nIobuct1yzXeT9G4VmguKW7O7ZFPuRCvcGPe1RHb3be5Ov3TItCnqmhfqkK5JibQJ\nGTpwMiLG2aXIHxCZZn8FB0DupAV6cDpzpWALvPE8hp/myycKZssBH0mi/Hn97xgp\niFH97FkRAgMBAAECggEAMDeDlyByQYEYt3Yk5EaAwMkDz7yfrg5Os92KJPw80VxO\nbhRIfenqOGJwvboGUlBZi6Zf5eTXQJVIGBwfofWCchkGwdbp02KvXNxK+Pz19Hbf\n8qcJ3xVBkWMo4GXqqBee0o5eQqtxEznyjm6CNu877Mr0tI5aolhz6vnqDns6KBoo\n8kNjSiZCsQsXFHXlRTP31IA8dNxyaMJDJgomitEbGlVcZeOgqonI99qlLzY5kUGi\nzUgt/Sqye30W7j74iZdRcWMnx34+HsUwSSMGwXq752Zf1KZlfnVWgqw9JDfLaosI\nKL5Z+mu2Zi/i17h6ea7rD2F2HHhsr9mK8Y+C5hi0fQKBgQD5Nnde5XH9UnXnY9Um\n7Bkf6T36/byFqUnbjqhGOZi0mbWO/4NuI1XhEWiD8B8lUecoTY33l8JxavoTrHsB\nDc30+s5RWVgFXsKI3vCsBwLjJC8w/jAd41VkHGuNqLjgp8jcnsjZYqWL6MSrlgUy\n/BLTOdnqouyZ82hiYTm22+Wi/QKBgQDa4Vm9887MSBINqu0NtixMYxq/NT9jZV+u\nGFPLv4w6Lh0fOQaQyOT2Is1JivQbL+GJpkmFXQiAzgrrbaZwd2uSkQ9z7D0+ySM8\nDv7dtmS3IjtNVyH8LXd9sLjyAiLR9ZjpEQPai34MKFw94mcsQQUOAJ1yRA1aKSvD\nsIVRksM8pQKBgEA580W3qEr7B3vc1MA1NLxuphSbdAyWdnxpJaEDkwFoY8w4uayW\n2rkofWETb1N06jgO1LmsmOYWBeEwIHtDDYNHaAi7F946b7RKkIglPm8/khH0UH5D\namxkjqtxgkQTucZx/Z1YuQV3tcfq3+gl4swhKrI3zvZWLt67493miiYZAoGAMf8r\nuqIIaM1Fom2avHkSYVh58Zc+JXwwgNn5uh7E7z09VbZ283eQJVEJx3TAEb28LO8Y\n+CeqG5H1GJXxYNtGbTJJb1dVHhRfwgZC3W4eT164YRA4KRxRoRpPBKjMP110Ujia\nwr7+SdSmTVR78LXha7NkQ4eb7S5eWtLlgR6fDikCgYEAihMMUUjJ2nA99Q5zxPQ+\nThp4jTplafTNiyOhb+bwz1xxZvbLr3OrQL3MoeeGOQOChQOoDqU96IAD9Cf9tcfo\njMEhcYiDmkQ2qxaPMiLPcE8Cae4l7PlNUH29cxV54IkpwKL4mhrSDXCN5DscEZB9\nyt4FJsmfrR9d53yBRFcLhX8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "rl-uni-scrims@rl-uni-scrims.iam.gserviceaccount.com",
+  "client_id": "113524110679671473053",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rl-uni-scrims%40rl-uni-scrims.iam.gserviceaccount.com"
+}
