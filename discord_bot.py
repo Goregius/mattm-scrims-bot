@@ -299,7 +299,7 @@ async def kickPlayer(context, player):
 
 @client.event
 async def on_ready():
-    await client.change_presence(game=Game(name="Rocket League"))
+    await client.change_presence(activity=Game(name="Rocket League"))
     print('Logged in as')
     print(client.user.name)
     print(client.user.id)
