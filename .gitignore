@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+bot_token.py
+/.history
+/.vscode
+/.idea
+/__pycache__
