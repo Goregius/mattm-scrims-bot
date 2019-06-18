@@ -103,7 +103,7 @@ client = Bot(command_prefix=BOT_PREFIX)
                 pass_context=True)
 async def hello(context):
     msg = 'Hello '+context.message.author.mention
-    await client.say(msg)
+    await context.send(msg)
 
 ####-----------------------------------------QUEUE COMMANDS------------------------------------------------------
 
@@ -132,7 +132,7 @@ async def queue(context):
                 msg += "\nGame Starting! Pick an option to create teams (!b !r !c)"
     if msg=="":
         msg = "this is a test server (queue msg)"
-    await client.say(msg)
+    await context.send(msg)
 
 
 
@@ -153,7 +153,7 @@ async def leave(context):
             break
     if msg == "":
         msg = "this is a test server"
-    await client.say(msg)
+    await context.send(msg)
 
 
 @client.command(name="status",
@@ -175,7 +175,7 @@ async def status(context):
                 break
     if msg == "":
         msg = "this is a test server"
-    await client.say(msg)
+    await context.send(msg)
 #---------------------------------------------------------------------------------------------------------------------------------------
 #-------------------------------------------------ActiveGames---------------------------------------------------------------------------
 @client.command(name="random",
@@ -200,9 +200,9 @@ async def randomTeams(context):
                 str(Blue[1]) + ", " + str(Blue[2])
             msg += "\nTeam B: "+str(Orange[0])+", " + \
                 str(Orange[1]) + ", " + str(Orange[2])
-            await client.say(msg)
+            await context.send(msg)
             return True
-    await client.say("No active games found "+context.message.author.mention+".")
+    await context.send("No active games found "+context.message.author.mention+".")
 
         
 
@@ -259,7 +259,7 @@ async def report_score(context, result, score1, score2):
             msg = "There are currently no active games"+context.message.author.mention
     else:
         msg = "Unrecognised syntax, try again"
-    await client.say(msg)
+    await context.send(msg)
 
         
 @client.command(name="Delete Active game",
@@ -274,7 +274,7 @@ async def deleteActiveGame(context):
             for q in range(len(Queue)):
                 if Queue[q].channel_id == context.message.channel.id:
                     del Queue[q]
-                    await client.say("game removed from the queue" )
+                    await context.send("game removed from the queue" )
 #-------------------------------------------------------------------------------------------------------------------------------
 @client.command(name="Kick Player",
                 description="Removes player from queue ",
@@ -291,7 +291,7 @@ async def kickPlayer(context, player):
                         queuer = Queues[q].gameQueue[i]
                         if player == queuer or player == str(queuer)[:-5]:
                             del Queues[q].gameQueue[i]
-                            await client.say(str(queuer)[:-5]+" removed from the queue.")
+                            await context.send(str(queuer)[:-5]+" removed from the queue.")
                             return True
     print("player not found in the list.")        
     
